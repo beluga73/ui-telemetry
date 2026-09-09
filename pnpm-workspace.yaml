@@ -6,3 +6,6 @@ onlyBuiltDependencies:
   - '@biomejs/biome'
   - esbuild
   - lefthook
+
+catalog:
+  "typescript": "~6.0.2"
