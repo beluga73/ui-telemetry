@@ -1,1 +1,1 @@
-export const CONSTANT = 'constant';
+export { hello } from '#src/constant';

@@ -1,4 +1,4 @@
-import { CONSTANT } from '@repo/ui-telemetry';
+import { hello } from '@repo/ui-telemetry';
 import { Button } from '@/components/ui/button';
 import { useTheme } from './components/theme-provider';
 
@@ -11,7 +11,7 @@ export default function App() {
 
   return (
     <div>
-      {CONSTANT}
+      {hello}
       <Button onClick={handleClick}>{theme}</Button>
     </div>
   );

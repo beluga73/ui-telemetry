@@ -6,6 +6,9 @@
   "exports": {
     ".": "./src/index.ts"
   },
+  "imports": {
+    "#src/*": "./src/*.ts"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
